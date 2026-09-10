@@ -18,16 +18,16 @@ Z2 o-quiet -auto_acc_if_foreign -work work +acc
 Z3 tCvgOpt 0
 n@_opt
 Z4 OL;O;2019.2;69
+R0
 T_opt1
-!s110 1789064176
-Ve>o02^6Mn:ac<GUAO>CPC0
+Z5 !s110 1789068375
+VHJ=^8YLzEd7IINcDb0Nm70
 R1
-=1-b07b251afa15-6aa2f3f0-29-5ff0
+=1-b07b251afa15-6aa30457-317-4e40
 R2
 R3
 n@_opt1
 R4
-R0
 T_opt2
 !s110 1789065111
 Vo?g:NAMzCaI@BclhUe41Z0
@@ -38,40 +38,38 @@ R3
 n@_opt2
 R4
 R0
-Egeneric_adder_beh
-Z5 w1789063997
-Z6 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Efull_adder_single_bit_arch
+Z6 w1789063996
 Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z8 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-R0
-Z9 8../../src/generic_adder_beh.vhd
-Z10 F../../src/generic_adder_beh.vhd
+Z9 dC:/Users/opc4457/quartus/lab2/generic_adder_arch/sim/script
+Z10 8../../src/full_adder_single_bit_arch/src/full_adder_single_bit_arch.vhd
+Z11 F../../src/full_adder_single_bit_arch/src/full_adder_single_bit_arch.vhd
 l0
-L9
-VZM:m22W6n_OU0[flII;@<2
-!s100 OOaH7j]OJo2FNLlk`2n1j2
-Z11 OL;C;2019.2;69
+L8
+ViAheATI5okmNF;[dMG5O00
+!s100 BEEX<>@;>^5C8<PhO2hHm1
+Z12 OL;C;2019.2;69
 31
-Z12 !s110 1789065361
+R5
 !i10b 1
-Z13 !s108 1789065361.000000
-Z14 !s90 -reportprogress|300|-93|-work|work|../../src/generic_adder_beh.vhd|
-Z15 !s107 ../../src/generic_adder_beh.vhd|
+Z13 !s108 1789068375.000000
+Z14 !s90 -reportprogress|300|-93|-work|work|../../src/full_adder_single_bit_arch/src/full_adder_single_bit_arch.vhd|
+Z15 !s107 ../../src/full_adder_single_bit_arch/src/full_adder_single_bit_arch.vhd|
 !i113 0
 Z16 o-93 -work work
 Z17 tExplicit 1 CvgOpt 0
-Abeh
-R6
+Aarch
 R7
 R8
-DEx4 work 17 generic_adder_beh 0 22 ZM:m22W6n_OU0[flII;@<2
-l27
-L22
-VXiACzM[7Kd];V;iL`X2`K1
-!s100 J0QDzX5NX;aLCSO9EOMGC0
-R11
-31
+DEx4 work 26 full_adder_single_bit_arch 0 22 iAheATI5okmNF;[dMG5O00
+l20
+L18
+VRWVVC7V[]S87n?Y[iH6[j0
+!s100 iB?;FMlJMkhKTg4X=[Log0
 R12
+31
+R5
 !i10b 1
 R13
 R14
@@ -79,32 +77,114 @@ R15
 !i113 0
 R16
 R17
-Egeneric_adder_tb
-Z18 w1789065078
-Z19 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
-R6
+Egeneric_adder_arch
+Z18 w1789067526
+Z19 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 R7
 R8
-R0
-Z20 8../src/generic_adder_tb.vhd
-Z21 F../src/generic_adder_tb.vhd
+R9
+Z20 8../../src/generic_adder_arch.vhd
+Z21 F../../src/generic_adder_arch.vhd
 l0
-L10
-Ve9?:`H@Q`7ea6f0VdBTc93
-!s100 BA:7GkPR^dBaQ<>zdHe^j2
-R11
-31
+L9
+VnXLf5R>P?=BbQ]1L5SK_n0
+!s100 9I=@=83hLHZo@J>Ukzz3I3
 R12
+31
+R5
 !i10b 1
 R13
-Z22 !s90 -reportprogress|300|-93|-work|work|../src/generic_adder_tb.vhd|
-Z23 !s107 ../src/generic_adder_tb.vhd|
+Z22 !s90 -reportprogress|300|-93|-work|work|../../src/generic_adder_arch.vhd|
+Z23 !s107 ../../src/generic_adder_arch.vhd|
 !i113 0
 R16
 R17
 Aarch
 R19
-R6
+R7
+R8
+DEx4 work 18 generic_adder_arch 0 22 nXLf5R>P?=BbQ]1L5SK_n0
+l36
+L22
+V?Ka<TbKPJ2U7AKLDEIgam3
+!s100 H3^dSOgb>d^JECAf:@a1Q3
+R12
+31
+R5
+!i10b 1
+R13
+R22
+R23
+!i113 0
+R16
+R17
+Egeneric_adder_beh
+Z24 w1789063997
+R19
+R7
+R8
+R0
+Z25 8../../src/generic_adder_beh.vhd
+Z26 F../../src/generic_adder_beh.vhd
+l0
+L9
+VZM:m22W6n_OU0[flII;@<2
+!s100 OOaH7j]OJo2FNLlk`2n1j2
+R12
+31
+Z27 !s110 1789065361
+!i10b 1
+Z28 !s108 1789065361.000000
+Z29 !s90 -reportprogress|300|-93|-work|work|../../src/generic_adder_beh.vhd|
+Z30 !s107 ../../src/generic_adder_beh.vhd|
+!i113 0
+R16
+R17
+Abeh
+R19
+R7
+R8
+DEx4 work 17 generic_adder_beh 0 22 ZM:m22W6n_OU0[flII;@<2
+l27
+L22
+VXiACzM[7Kd];V;iL`X2`K1
+!s100 J0QDzX5NX;aLCSO9EOMGC0
+R12
+31
+R27
+!i10b 1
+R28
+R29
+R30
+!i113 0
+R16
+R17
+Egeneric_adder_tb
+Z31 w1789065078
+Z32 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+R19
+R7
+R8
+R9
+Z33 8../src/generic_adder_tb.vhd
+Z34 F../src/generic_adder_tb.vhd
+l0
+L10
+Ve9?:`H@Q`7ea6f0VdBTc93
+!s100 BA:7GkPR^dBaQ<>zdHe^j2
+R12
+31
+R5
+!i10b 1
+R13
+Z35 !s90 -reportprogress|300|-93|-work|work|../src/generic_adder_tb.vhd|
+Z36 !s107 ../src/generic_adder_tb.vhd|
+!i113 0
+R16
+R17
+Aarch
+R32
+R19
 R7
 R8
 DEx4 work 16 generic_adder_tb 0 22 e9?:`H@Q`7ea6f0VdBTc93
@@ -112,13 +192,13 @@ l37
 L13
 V6Ii`K?k3Hg9^A@4SfU?SH2
 !s100 Hb9_cbK_=DoKC3_1[9cJG0
-R11
-31
 R12
+31
+R5
 !i10b 1
 R13
-R22
-R23
+R35
+R36
 !i113 0
 R16
 R17

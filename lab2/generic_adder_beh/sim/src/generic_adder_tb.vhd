@@ -25,14 +25,14 @@ component generic_adder_beh is
   );
 end component generic_adder_beh;
 
-constant NUM_BITS          : integer := 4;
+constant NUM_BITS          : integer := 2;
 constant SEQUENTIAL_FLAG   : boolean := true;     -- false : concurrent stimuli, true: sequential stimuli
 signal a                   : std_logic_vector(NUM_BITS - 1 downto 0) := (others => '0');
 signal b                   : std_logic_vector(NUM_BITS - 1 downto 0) := (others => '0');
 signal cin                 : std_logic := '0';
 signal sum                 : std_logic_vector(NUM_BITS - 1 downto 0);
 signal cout                : std_logic;
-signal cin_guard           : std_logic_vector(NUM_BITS - 4 downto 0) := (others => '0');
+signal cin_guard           : std_logic_vector(NUM_BITS - 2 downto 0) := (others => '0');
 
 begin
 
@@ -57,12 +57,9 @@ sequential_stimuli: if SEQUENTIAL_FLAG generate
         a <= std_logic_vector(unsigned(a) + 1 );
         for j in 0 to ((2 ** NUM_BITS) - 1)  loop
           b <= std_logic_vector(unsigned(b) + 1 );
-			 for k in 0 to 1 loop
-			 cin <= not cin;
           wait for 10 ns;
         end loop;
       end loop;
-		end loop;
       report "****************** sequential testbench stop ****************";
       wait;
   end process; 

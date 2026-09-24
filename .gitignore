@@ -1,0 +1,16 @@
+# Quartus generated
+output_files/
+db/
+incremental_db/
+project/
+*.qws
+*.rpt
+*.summary
+*.sof
+*.pof
+*.flock
+
+# ModelSim generated
+work/
+transcript
+vsim.wlf
